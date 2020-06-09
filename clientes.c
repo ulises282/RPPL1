@@ -118,7 +118,7 @@ eClientes crearUnCliente (eLocalidad localidad[], int tamL)
     strcpy(clientes.nombre, aux);
 
     do{
-        valido = validar_string(aux, "Ingresar apellido");
+        valido = validar_string(aux, "Ingresar apellido: ");
     }while(valido!=1);
     strcpy(clientes.apellido, aux);
 
