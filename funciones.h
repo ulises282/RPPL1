@@ -12,3 +12,5 @@ void menuMascotas (void);
 void menuClientes_Mascotas(void);
 void menuPromedios(void);
 void menuModificacioClientes(void);
+int validar_string (char cadena[], char mensaje[]);
+int validar_stringDigitos (char cadena[]);

@@ -103,16 +103,24 @@ eClientes crearUnCliente (eLocalidad localidad[], int tamL)
 {
     int opcionTipo;
     eClientes clientes;
+    char aux[51];
+    int valido;
 
-    printf ("Ingrese nombre: ");
+    /*printf ("Ingrese nombre: ");
     fflush (stdin);
     fgets(clientes.nombre,51,stdin);
-    clientes.nombre[strlen(clientes.nombre)-1]='\0';
+    clientes.nombre[strlen(clientes.nombre)-1]='\0';*/
 
-    printf ("Ingrese apellido: ");
-    fflush (stdin);
-    fgets(clientes.apellido,51,stdin);
-    clientes.apellido[strlen(clientes.apellido)-1]='\0';
+
+    do{
+        valido = validar_string(aux, "Ingresar nombre: ");
+    }while(valido!=1);
+    strcpy(clientes.nombre, aux);
+
+    do{
+        valido = validar_string(aux, "Ingresar apellido");
+    }while(valido!=1);
+    strcpy(clientes.apellido, aux);
 
     printf ("Ingrese localidad: \n");
     int cont = 0;

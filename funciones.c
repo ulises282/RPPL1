@@ -128,3 +128,29 @@ void menuModificacioClientes(void)
     printf("6. Sexo\n");
     printf("7. Salir\n");
 }
+/////////////////////////////////////////////////////////////////////
+int validar_stringDigitos (char cadena[])
+{
+   int i;
+   for(i = 0; i < strlen(cadena); i++)
+   {
+       if(isdigit(cadena[i]))
+       {
+           return 0;
+       }
+   }
+   return 1;
+}
+///////////////////////////////////////////////////////////////////////
+int validar_string (char cadena[], char mensaje[])
+{
+    int valido = 0;
+    do{
+        printf("%s", mensaje);
+        fflush (stdin);
+        fgets(cadena,51,stdin);
+        valido = validar_stringDigitos(cadena);
+    }while(valido!=1);
+    cadena[strlen(cadena)-1]='\0';
+    return 1;
+}
