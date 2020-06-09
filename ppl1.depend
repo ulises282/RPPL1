@@ -1,0 +1,179 @@
+# depslib dependency file v1.0
+1589892041 source:e:\u\ppl1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes_mascotas.c"
+	"funciones.c"
+
+1589892041 e:\u\ppl1\clientes.c
+	"clientes.h"
+	"funciones.h"
+
+1589888049 e:\u\ppl1\clientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1589894383 e:\u\ppl1\mascotas.c
+	"mascotas.h"
+
+1589891859 e:\u\ppl1\mascotas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"funciones.h"
+
+1589888049 e:\u\ppl1\clientes_mascotas.c
+	"clientes_mascotas.h"
+
+1589846152 e:\u\ppl1\clientes_mascotas.h
+	"clientes.c"
+	"mascotas.c"
+
+1589845327 e:\u\ppl1\funciones.c
+	"funciones.h"
+
+1589890936 e:\u\ppl1\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1589890936 e:\u\ppl1\raza.c
+	"raza.h"
+
+1589890901 e:\u\ppl1\raza.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1591649847 source:e:\u\ppl1\ppl1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes_mascotas.c"
+	"funciones.c"
+
+1591659302 e:\u\ppl1\ppl1\clientes_mascotas.c
+	"clientes_mascotas.h"
+
+1591634521 e:\u\ppl1\ppl1\clientes_mascotas.h
+	"clientes.c"
+	"mascotas.c"
+
+1591644589 e:\u\ppl1\ppl1\clientes.c
+	"clientes.h"
+	"funciones.h"
+
+1589894912 e:\u\ppl1\ppl1\clientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1591637518 e:\u\ppl1\ppl1\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1591649840 e:\u\ppl1\ppl1\mascotas.c
+	"mascotas.h"
+
+1591098076 e:\u\ppl1\ppl1\mascotas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"funciones.h"
+
+1591644355 e:\u\ppl1\ppl1\funciones.c
+	"funciones.h"
+
+1591705755 source:e:\u\ppl1 - copia\ppl1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes_mascotas.c"
+	"funciones.c"
+
+1591706549 e:\u\ppl1 - copia\ppl1\clientes_mascotas.c
+	"clientes_mascotas.h"
+
+1591705839 e:\u\ppl1 - copia\ppl1\clientes_mascotas.h
+	"clientes.c"
+	"mascotas.c"
+
+1591703727 e:\u\ppl1 - copia\ppl1\clientes.c
+	"clientes.h"
+	"funciones.h"
+
+1591703377 e:\u\ppl1 - copia\ppl1\clientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1591666126 e:\u\ppl1 - copia\ppl1\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+
+1591665934 e:\u\ppl1 - copia\ppl1\mascotas.c
+	"mascotas.h"
+
+1591665934 e:\u\ppl1 - copia\ppl1\mascotas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"funciones.h"
+
+1591666754 e:\u\ppl1 - copia\ppl1\funciones.c
+	"funciones.h"
+
+1591705755 source:e:\u\ppl1 - copia\rppl1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes_mascotas.c"
+	"funciones.c"
+
+1591706761 e:\u\ppl1 - copia\rppl1\clientes_mascotas.c
+	"clientes_mascotas.h"
+
+1591705839 e:\u\ppl1 - copia\rppl1\clientes_mascotas.h
+	"clientes.c"
+	"mascotas.c"
+
+1591703727 e:\u\ppl1 - copia\rppl1\clientes.c
+	"clientes.h"
+	"funciones.h"
+
+1591703377 e:\u\ppl1 - copia\rppl1\clientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1591666126 e:\u\ppl1 - copia\rppl1\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+
+1591665934 e:\u\ppl1 - copia\rppl1\mascotas.c
+	"mascotas.h"
+
+1591665934 e:\u\ppl1 - copia\rppl1\mascotas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"funciones.h"
+
+1591666754 e:\u\ppl1 - copia\rppl1\funciones.c
+	"funciones.h"
+
